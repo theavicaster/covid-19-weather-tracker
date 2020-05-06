@@ -1,6 +1,284 @@
 # COVID-19 WeatherTracker
 ## Sample Output
 
+### India
+---
+```
+Country code fetched! - IN
+Geocoded locations fetched! - 
+Delhi
+Jammu and Kashmir
+Mumbai
+Bangalore
+Chennai
+Record for 24/3 fetched!
+Record for 25/3 fetched!
+Record for 26/3 fetched!
+Record for 27/3 fetched!
+Record for 28/3 fetched!
+Record for 29/3 fetched!
+Record for 30/3 fetched!
+Record for 31/3 fetched!
+Record for 1/4 fetched!
+Record for 2/4 fetched!
+Record for 3/4 fetched!
+Record for 4/4 fetched!
+Record for 5/4 fetched!
+Record for 6/4 fetched!
+Record for 7/4 fetched!
+Record for 8/4 fetched!
+Record for 9/4 fetched!
+Record for 10/4 fetched!
+Record for 11/4 fetched!
+Record for 12/4 fetched!
+Record for 13/4 fetched!
+Record for 14/4 fetched!
+Record for 15/4 fetched!
+Record for 16/4 fetched!
+Record for 17/4 fetched!
+Record for 18/4 fetched!
+Record for 19/4 fetched!
+Record for 20/4 fetched!
+Record for 21/4 fetched!
+Record for 22/4 fetched!
+Record for 23/4 fetched!
+Record for 24/4 fetched!
+Record for 25/4 fetched!
+Record for 26/4 fetched!
+Record for 27/4 fetched!
+Record for 28/4 fetched!
+Record for 29/4 fetched!
+Record for 30/4 fetched!
+Record for 1/5 fetched!
+Record for 2/5 fetched!
+Record for 3/5 fetched!
+Record for 4/5 fetched!
+Record for 5/5 fetched!
+COVID-19 historical data fetched! - 43 records.
+API Key set!
+Weather information for day 0 fetched!
+Weather information for day 1 fetched!
+Weather information for day 2 fetched!
+Weather information for day 3 fetched!
+Weather information for day 4 fetched!
+Weather information for day 5 fetched!
+Weather information for day 6 fetched!
+Weather information for day 7 fetched!
+Weather information for day 8 fetched!
+Weather information for day 9 fetched!
+Weather information for day 10 fetched!
+Weather information for day 11 fetched!
+Weather information for day 12 fetched!
+Weather information for day 13 fetched!
+Weather information for day 14 fetched!
+Weather information for day 15 fetched!
+Weather information for day 16 fetched!
+Weather information for day 17 fetched!
+Weather information for day 18 fetched!
+Weather information for day 19 fetched!
+Weather information for day 20 fetched!
+Weather information for day 21 fetched!
+Weather information for day 22 fetched!
+Weather information for day 23 fetched!
+Weather information for day 24 fetched!
+Weather information for day 25 fetched!
+Weather information for day 26 fetched!
+Weather information for day 27 fetched!
+Weather information for day 28 fetched!
+Weather information for day 29 fetched!
+Weather information for day 30 fetched!
+Weather information for day 31 fetched!
+Weather information for day 32 fetched!
+Weather information for day 33 fetched!
+Weather information for day 34 fetched!
+Weather information for day 35 fetched!
+Weather information for day 36 fetched!
+Weather information for day 37 fetched!
+Weather information for day 38 fetched!
+Weather information for day 39 fetched!
+Weather information for day 40 fetched!
+Weather information for day 41 fetched!
+Weather information for day 42 fetched!
+Weather information fetched!
+Finished fetching data!
+
+╔══════╤═══════════╤══════╤═══════════╤════════╤═══════════╤══════════════╤═══════════════════╤══════════════╤══════════════╤══════════════╗
+║ Date │ Confirmed │ Dead │ Recovered │ Active │ New Cases │ Delhi        │ Jammu and Kashmir │ Mumbai       │ Bangalore    │ Chennai      ║
+╠══════╪═══════════╪══════╪═══════════╪════════╪═══════════╪══════════════╪═══════════════════╪══════════════╪══════════════╪══════════════╣
+║ 24/3 │ 536       │ 10   │ 40        │ 486    │ 0         │ 32.52°C Max  │ -5.99°C Max       │ 31.53°C Max  │ 33.84°C Max  │ 32.13°C Max  ║
+║      │           │      │           │        │           │ 19.33°C Min  │ -14.71°C Min      │ 25.69°C Min  │ 18.68°C Min  │ 24.03°C Min  ║
+║      │           │      │           │        │           │ 38% Humidity │ 92% Humidity      │ 73% Humidity │ 48% Humidity │ 73% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 25/3 │ 657       │ 12   │ 43        │ 602    │ 121       │ 33.80°C Max  │ -5.64°C Max       │ 30.74°C Max  │ 32.53°C Max  │ 32.52°C Max  ║
+║      │           │      │           │        │           │ 22.36°C Min  │ -15.12°C Min      │ 24.92°C Min  │ 18.34°C Min  │ 23.67°C Min  ║
+║      │           │      │           │        │           │ 45% Humidity │ 89% Humidity      │ 76% Humidity │ 47% Humidity │ 73% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 26/3 │ 727       │ 20   │ 45        │ 662    │ 70        │ 31.91°C Max  │ -4.36°C Max       │ 31.58°C Max  │ 33.54°C Max  │ 32.19°C Max  ║
+║      │           │      │           │        │           │ 21.19°C Min  │ -12.14°C Min      │ 25.59°C Min  │ 18.13°C Min  │ 24.16°C Min  ║
+║      │           │      │           │        │           │ 41% Humidity │ 81% Humidity      │ 78% Humidity │ 46% Humidity │ 74% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 27/3 │ 887       │ 20   │ 73        │ 794    │ 160       │ 25.91°C Max  │ -4.59°C Max       │ 31.92°C Max  │ 32.68°C Max  │ 32.54°C Max  ║
+║      │           │      │           │        │           │ 18.26°C Min  │ -11.37°C Min      │ 26.41°C Min  │ 17.23°C Min  │ 22.86°C Min  ║
+║      │           │      │           │        │           │ 59% Humidity │ 99% Humidity      │ 74% Humidity │ 44% Humidity │ 69% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 28/3 │ 987       │ 24   │ 84        │ 879    │ 100       │ 30.08°C Max  │ -8.53°C Max       │ 32.22°C Max  │ 33.68°C Max  │ 32.38°C Max  ║
+║      │           │      │           │        │           │ 17.71°C Min  │ -18.46°C Min      │ 25.45°C Min  │ 17.24°C Min  │ 22.42°C Min  ║
+║      │           │      │           │        │           │ 55% Humidity │ 98% Humidity      │ 66% Humidity │ 39% Humidity │ 69% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 29/3 │ 1024      │ 27   │ 95        │ 902    │ 37        │ 30.88°C Max  │ -6.76°C Max       │ 32.06°C Max  │ 33.78°C Max  │ 32.82°C Max  ║
+║      │           │      │           │        │           │ 17.71°C Min  │ -16.64°C Min      │ 25.39°C Min  │ 18.06°C Min  │ 22.32°C Min  ║
+║      │           │      │           │        │           │ 43% Humidity │ 87% Humidity      │ 62% Humidity │ 36% Humidity │ 71% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 30/3 │ 1251      │ 32   │ 102       │ 1117   │ 227       │ 31.41°C Max  │ -6.34°C Max       │ 31.98°C Max  │ 34.39°C Max  │ 32.49°C Max  ║
+║      │           │      │           │        │           │ 16.87°C Min  │ -13.76°C Min      │ 24.85°C Min  │ 17.01°C Min  │ 22.28°C Min  ║
+║      │           │      │           │        │           │ 38% Humidity │ 80% Humidity      │ 65% Humidity │ 36% Humidity │ 71% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 31/3 │ 1397      │ 35   │ 123       │ 1239   │ 146       │ 32.82°C Max  │ -4.94°C Max       │ 31.46°C Max  │ 33.98°C Max  │ 32.66°C Max  ║
+║      │           │      │           │        │           │ 19.80°C Min  │ -11.29°C Min      │ 23.91°C Min  │ 18.25°C Min  │ 23.26°C Min  ║
+║      │           │      │           │        │           │ 39% Humidity │ 94% Humidity      │ 69% Humidity │ 36% Humidity │ 73% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 1/4  │ 1998      │ 58   │ 148       │ 1792   │ 601       │ 33.72°C Max  │ -8.91°C Max       │ 31.59°C Max  │ 34.63°C Max  │ 33.72°C Max  ║
+║      │           │      │           │        │           │ 20.73°C Min  │ -17.17°C Min      │ 24.47°C Min  │ 19.67°C Min  │ 24.12°C Min  ║
+║      │           │      │           │        │           │ 40% Humidity │ 100% Humidity     │ 69% Humidity │ 34% Humidity │ 73% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 2/4  │ 2543      │ 72   │ 191       │ 2280   │ 545       │ 31.31°C Max  │ -8.70°C Max       │ 32.57°C Max  │ 35.01°C Max  │ 33.92°C Max  ║
+║      │           │      │           │        │           │ 18.60°C Min  │ -17.65°C Min      │ 24.86°C Min  │ 19.43°C Min  │ 24.45°C Min  ║
+║      │           │      │           │        │           │ 37% Humidity │ 93% Humidity      │ 68% Humidity │ 37% Humidity │ 75% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 3/4  │ 2567      │ 72   │ 192       │ 2303   │ 24        │ 32.50°C Max  │ -5.40°C Max       │ 31.76°C Max  │ 34.87°C Max  │ 34.19°C Max  ║
+║      │           │      │           │        │           │ 16.14°C Min  │ -13.61°C Min      │ 24.82°C Min  │ 17.63°C Min  │ 23.52°C Min  ║
+║      │           │      │           │        │           │ 28% Humidity │ 70% Humidity      │ 73% Humidity │ 40% Humidity │ 75% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 4/4  │ 3082      │ 86   │ 229       │ 2767   │ 515       │ 33.93°C Max  │ -5.58°C Max       │ 31.05°C Max  │ 35.45°C Max  │ 33.53°C Max  ║
+║      │           │      │           │        │           │ 17.02°C Min  │ -14.18°C Min      │ 24.28°C Min  │ 18.50°C Min  │ 24.75°C Min  ║
+║      │           │      │           │        │           │ 30% Humidity │ 83% Humidity      │ 75% Humidity │ 40% Humidity │ 73% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 5/4  │ 3588      │ 99   │ 229       │ 3260   │ 506       │ 33.89°C Max  │ -6.43°C Max       │ 31.07°C Max  │ 35.48°C Max  │ 34.26°C Max  ║
+║      │           │      │           │        │           │ 19.47°C Min  │ -15.32°C Min      │ 25.02°C Min  │ 20.87°C Min  │ 26.62°C Min  ║
+║      │           │      │           │        │           │ 35% Humidity │ 85% Humidity      │ 76% Humidity │ 51% Humidity │ 79% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 6/4  │ 4778      │ 136  │ 375       │ 4267   │ 1190      │ 35.48°C Max  │ -7.70°C Max       │ 30.83°C Max  │ 34.34°C Max  │ 34.80°C Max  ║
+║      │           │      │           │        │           │ 20.19°C Min  │ -14.69°C Min      │ 25.02°C Min  │ 21.41°C Min  │ 25.45°C Min  ║
+║      │           │      │           │        │           │ 32% Humidity │ 95% Humidity      │ 77% Humidity │ 53% Humidity │ 80% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 7/4  │ 5311      │ 150  │ 421       │ 4740   │ 533       │ 35.23°C Max  │ -5.88°C Max       │ 30.70°C Max  │ 31.77°C Max  │ 34.24°C Max  ║
+║      │           │      │           │        │           │ 19.94°C Min  │ -14.77°C Min      │ 24.34°C Min  │ 20.16°C Min  │ 26.17°C Min  ║
+║      │           │      │           │        │           │ 31% Humidity │ 88% Humidity      │ 75% Humidity │ 58% Humidity │ 78% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 8/4  │ 5916      │ 178  │ 506       │ 5232   │ 605       │ 34.34°C Max  │ -4.87°C Max       │ 31.16°C Max  │ 29.78°C Max  │ 33.81°C Max  ║
+║      │           │      │           │        │           │ 19.30°C Min  │ -15.19°C Min      │ 23.75°C Min  │ 21.03°C Min  │ 26.32°C Min  ║
+║      │           │      │           │        │           │ 31% Humidity │ 82% Humidity      │ 73% Humidity │ 58% Humidity │ 82% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 9/4  │ 6725      │ 226  │ 620       │ 5879   │ 809       │ 34.82°C Max  │ -2.37°C Max       │ 31.33°C Max  │ 32.28°C Max  │ 33.51°C Max  ║
+║      │           │      │           │        │           │ 21.28°C Min  │ -10.48°C Min      │ 24.23°C Min  │ 21.07°C Min  │ 24.17°C Min  ║
+║      │           │      │           │        │           │ 30% Humidity │ 79% Humidity      │ 74% Humidity │ 54% Humidity │ 81% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 10/4 │ 7598      │ 246  │ 774       │ 6578   │ 873       │ 36.03°C Max  │ -3.15°C Max       │ 32.06°C Max  │ 32.61°C Max  │ 33.12°C Max  ║
+║      │           │      │           │        │           │ 22.85°C Min  │ -13.25°C Min      │ 25.73°C Min  │ 19.39°C Min  │ 25.78°C Min  ║
+║      │           │      │           │        │           │ 28% Humidity │ 96% Humidity      │ 74% Humidity │ 48% Humidity │ 77% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 11/4 │ 8446      │ 288  │ 969       │ 7189   │ 848       │ 37.61°C Max  │ -0.51°C Max       │ 32.73°C Max  │ 32.51°C Max  │ 32.83°C Max  ║
+║      │           │      │           │        │           │ 25.43°C Min  │ -10.21°C Min      │ 26.46°C Min  │ 19.99°C Min  │ 24.54°C Min  ║
+║      │           │      │           │        │           │ 27% Humidity │ 71% Humidity      │ 74% Humidity │ 51% Humidity │ 75% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 12/4 │ 9205      │ 331  │ 1080      │ 7794   │ 759       │ 37.47°C Max  │ 1.52°C Max        │ 33.59°C Max  │ 33.71°C Max  │ 33.79°C Max  ║
+║      │           │      │           │        │           │ 24.91°C Min  │ -9.57°C Min       │ 26.22°C Min  │ 18.84°C Min  │ 24.27°C Min  ║
+║      │           │      │           │        │           │ 25% Humidity │ 76% Humidity      │ 70% Humidity │ 41% Humidity │ 72% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 13/4 │ 10453     │ 358  │ 1181      │ 8914   │ 1248      │ 38.98°C Max  │ 1.29°C Max        │ 32.21°C Max  │ 34.14°C Max  │ 33.78°C Max  ║
+║      │           │      │           │        │           │ 25.37°C Min  │ -10.38°C Min      │ 26.18°C Min  │ 19.18°C Min  │ 24.01°C Min  ║
+║      │           │      │           │        │           │ 26% Humidity │ 85% Humidity      │ 78% Humidity │ 32% Humidity │ 72% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 14/4 │ 11487     │ 393  │ 1359      │ 9735   │ 1034      │ 39.15°C Max  │ 0.50°C Max        │ 33.37°C Max  │ 33.96°C Max  │ 33.25°C Max  ║
+║      │           │      │           │        │           │ 25.11°C Min  │ -8.02°C Min       │ 26.24°C Min  │ 17.38°C Min  │ 24.97°C Min  ║
+║      │           │      │           │        │           │ 27% Humidity │ 92% Humidity      │ 74% Humidity │ 26% Humidity │ 73% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 15/4 │ 12322     │ 405  │ 1432      │ 10485  │ 835       │ 38.68°C Max  │ -3.38°C Max       │ 33.56°C Max  │ 34.04°C Max  │ 33.28°C Max  ║
+║      │           │      │           │        │           │ 25.13°C Min  │ -11.99°C Min      │ 26.11°C Min  │ 19.53°C Min  │ 24.16°C Min  ║
+║      │           │      │           │        │           │ 22% Humidity │ 100% Humidity     │ 75% Humidity │ 28% Humidity │ 73% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 16/4 │ 13430     │ 448  │ 1768      │ 11214  │ 1108      │ 38.82°C Max  │ -1.48°C Max       │ 31.70°C Max  │ 34.29°C Max  │ 34.32°C Max  ║
+║      │           │      │           │        │           │ 25.46°C Min  │ -12.11°C Min      │ 25.77°C Min  │ 20.21°C Min  │ 26.09°C Min  ║
+║      │           │      │           │        │           │ 19% Humidity │ 91% Humidity      │ 82% Humidity │ 43% Humidity │ 75% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 17/4 │ 14352     │ 486  │ 2041      │ 11825  │ 922       │ 36.72°C Max  │ -5.49°C Max       │ 31.53°C Max  │ 35.12°C Max  │ 35.46°C Max  ║
+║      │           │      │           │        │           │ 21.06°C Min  │ -10.28°C Min      │ 26.21°C Min  │ 20.92°C Min  │ 26.71°C Min  ║
+║      │           │      │           │        │           │ 25% Humidity │ 98% Humidity      │ 82% Humidity │ 43% Humidity │ 77% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 18/4 │ 15722     │ 521  │ 2463      │ 12738  │ 1370      │ 34.66°C Max  │ -6.38°C Max       │ 32.57°C Max  │ 35.39°C Max  │ 34.99°C Max  ║
+║      │           │      │           │        │           │ 21.91°C Min  │ -13.77°C Min      │ 26.54°C Min  │ 20.25°C Min  │ 25.63°C Min  ║
+║      │           │      │           │        │           │ 43% Humidity │ 100% Humidity     │ 77% Humidity │ 45% Humidity │ 76% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 19/4 │ 17615     │ 559  │ 2854      │ 14202  │ 1893      │ 35.26°C Max  │ -5.29°C Max       │ 33.51°C Max  │ 34.48°C Max  │ 34.63°C Max  ║
+║      │           │      │           │        │           │ 23.05°C Min  │ -14.41°C Min      │ 26.81°C Min  │ 19.91°C Min  │ 26.24°C Min  ║
+║      │           │      │           │        │           │ 33% Humidity │ 90% Humidity      │ 74% Humidity │ 47% Humidity │ 78% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 20/4 │ 18539     │ 592  │ 3273      │ 14674  │ 924       │ 31.84°C Max  │ -3.04°C Max       │ 35.22°C Max  │ 34.18°C Max  │ 33.53°C Max  ║
+║      │           │      │           │        │           │ 20.30°C Min  │ -12.14°C Min      │ 25.76°C Min  │ 19.36°C Min  │ 25.14°C Min  ║
+║      │           │      │           │        │           │ 36% Humidity │ 84% Humidity      │ 64% Humidity │ 46% Humidity │ 76% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 21/4 │ 20080     │ 645  │ 3975      │ 15460  │ 1541      │ 34.01°C Max  │ -3.28°C Max       │ 33.43°C Max  │ 34.90°C Max  │ 34.12°C Max  ║
+║      │           │      │           │        │           │ 21.28°C Min  │ -13.46°C Min      │ 25.94°C Min  │ 20.58°C Min  │ 26.18°C Min  ║
+║      │           │      │           │        │           │ 39% Humidity │ 94% Humidity      │ 69% Humidity │ 42% Humidity │ 74% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 22/4 │ 21370     │ 681  │ 4370      │ 16319  │ 1290      │ 35.64°C Max  │ -1.88°C Max       │ 32.18°C Max  │ 34.27°C Max  │ 34.01°C Max  ║
+║      │           │      │           │        │           │ 25.11°C Min  │ -12.53°C Min      │ 27.02°C Min  │ 21.96°C Min  │ 26.96°C Min  ║
+║      │           │      │           │        │           │ 29% Humidity │ 83% Humidity      │ 77% Humidity │ 48% Humidity │ 77% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 23/4 │ 23077     │ 721  │ 5012      │ 17344  │ 1707      │ 34.53°C Max  │ -1.39°C Max       │ 32.58°C Max  │ 34.71°C Max  │ 34.08°C Max  ║
+║      │           │      │           │        │           │ 21.97°C Min  │ -11.04°C Min      │ 26.38°C Min  │ 21.88°C Min  │ 26.77°C Min  ║
+║      │           │      │           │        │           │ 30% Humidity │ 82% Humidity      │ 76% Humidity │ 53% Humidity │ 79% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 24/4 │ 24530     │ 780  │ 5498      │ 18252  │ 1453      │ 37.13°C Max  │ -0.51°C Max       │ 32.92°C Max  │ 31.55°C Max  │ 34.69°C Max  ║
+║      │           │      │           │        │           │ 25.16°C Min  │ -11.22°C Min      │ 27.11°C Min  │ 20.75°C Min  │ 27.77°C Min  ║
+║      │           │      │           │        │           │ 34% Humidity │ 74% Humidity      │ 78% Humidity │ 59% Humidity │ 78% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 25/4 │ 26283     │ 825  │ 5939      │ 19519  │ 1753      │ 34.84°C Max  │ -0.32°C Max       │ 32.53°C Max  │ 30.71°C Max  │ 33.59°C Max  ║
+║      │           │      │           │        │           │ 24.27°C Min  │ -10.07°C Min      │ 26.04°C Min  │ 20.82°C Min  │ 27.59°C Min  ║
+║      │           │      │           │        │           │ 35% Humidity │ 78% Humidity      │ 75% Humidity │ 67% Humidity │ 81% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 26/4 │ 27890     │ 881  │ 6523      │ 20486  │ 1607      │ 34.03°C Max  │ -0.77°C Max       │ 32.28°C Max  │ 31.76°C Max  │ 34.04°C Max  ║
+║      │           │      │           │        │           │ 21.10°C Min  │ -9.32°C Min       │ 26.17°C Min  │ 21.77°C Min  │ 28.06°C Min  ║
+║      │           │      │           │        │           │ 42% Humidity │ 90% Humidity      │ 73% Humidity │ 61% Humidity │ 79% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 27/4 │ 29451     │ 939  │ 7137      │ 21375  │ 1561      │ 32.80°C Max  │ -1.21°C Max       │ 32.17°C Max  │ 31.05°C Max  │ 33.91°C Max  ║
+║      │           │      │           │        │           │ 22.11°C Min  │ -9.76°C Min       │ 26.71°C Min  │ 20.35°C Min  │ 26.47°C Min  ║
+║      │           │      │           │        │           │ 55% Humidity │ 96% Humidity      │ 76% Humidity │ 60% Humidity │ 82% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 28/4 │ 31324     │ 1008 │ 7747      │ 22569  │ 1873      │ 34.07°C Max  │ -0.17°C Max       │ 32.73°C Max  │ 32.86°C Max  │ 33.26°C Max  ║
+║      │           │      │           │        │           │ 24.74°C Min  │ -9.23°C Min       │ 27.81°C Min  │ 20.15°C Min  │ 27.29°C Min  ║
+║      │           │      │           │        │           │ 51% Humidity │ 91% Humidity      │ 76% Humidity │ 59% Humidity │ 80% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 29/4 │ 33062     │ 1079 │ 8437      │ 23546  │ 1738      │ 37.24°C Max  │ 1.38°C Max        │ 32.32°C Max  │ 27.23°C Max  │ 34.37°C Max  ║
+║      │           │      │           │        │           │ 26.54°C Min  │ -9.47°C Min       │ 27.60°C Min  │ 20.47°C Min  │ 27.38°C Min  ║
+║      │           │      │           │        │           │ 42% Humidity │ 84% Humidity      │ 79% Humidity │ 73% Humidity │ 76% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 30/4 │ 34863     │ 1154 │ 9068      │ 24641  │ 1801      │ 38.37°C Max  │ 1.04°C Max        │ 32.18°C Max  │ 32.53°C Max  │ 33.99°C Max  ║
+║      │           │      │           │        │           │ 25.65°C Min  │ -9.36°C Min       │ 27.65°C Min  │ 21.26°C Min  │ 27.46°C Min  ║
+║      │           │      │           │        │           │ 39% Humidity │ 93% Humidity      │ 80% Humidity │ 55% Humidity │ 78% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 1/5  │ 37257     │ 1223 │ 10007     │ 26027  │ 2394      │ 39.58°C Max  │ 2.96°C Max        │ 31.90°C Max  │ 33.79°C Max  │ 35.18°C Max  ║
+║      │           │      │           │        │           │ 25.11°C Min  │ -6.99°C Min       │ 27.22°C Min  │ 21.55°C Min  │ 26.73°C Min  ║
+║      │           │      │           │        │           │ 36% Humidity │ 71% Humidity      │ 79% Humidity │ 52% Humidity │ 79% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 2/5  │ 39699     │ 1323 │ 10819     │ 27557  │ 2442      │ 38.87°C Max  │ 0.29°C Max        │ 32.46°C Max  │ 33.01°C Max  │ 35.92°C Max  ║
+║      │           │      │           │        │           │ 25.88°C Min  │ -8.11°C Min       │ 27.68°C Min  │ 20.61°C Min  │ 27.28°C Min  ║
+║      │           │      │           │        │           │ 41% Humidity │ 99% Humidity      │ 79% Humidity │ 55% Humidity │ 78% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 3/5  │ 42505     │ 1391 │ 11775     │ 29339  │ 2806      │ 35.32°C Max  │ -2.43°C Max       │ 32.79°C Max  │ 34.17°C Max  │ 34.78°C Max  ║
+║      │           │      │           │        │           │ 22.60°C Min  │ -10.06°C Min      │ 27.02°C Min  │ 21.57°C Min  │ 26.61°C Min  ║
+║      │           │      │           │        │           │ 48% Humidity │ 99% Humidity      │ 78% Humidity │ 54% Humidity │ 78% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 4/5  │ 46437     │ 1566 │ 12847     │ 32024  │ 3932      │ 35.59°C Max  │ -3.77°C Max       │ 33.28°C Max  │ 33.71°C Max  │ 35.26°C Max  ║
+║      │           │      │           │        │           │ 24.27°C Min  │ -10.73°C Min      │ 27.05°C Min  │ 22.49°C Min  │ 26.92°C Min  ║
+║      │           │      │           │        │           │ 50% Humidity │ 96% Humidity      │ 77% Humidity │ 51% Humidity │ 76% Humidity ║
+╟──────┼───────────┼──────┼───────────┼────────┼───────────┼──────────────┼───────────────────┼──────────────┼──────────────┼──────────────╢
+║ 5/5  │ 49400     │ 1693 │ 14142     │ 33565  │ 2963      │ 35.82°C Max  │ -3.28°C Max       │ 32.96°C Max  │ 35.33°C Max  │ 35.28°C Max  ║
+║      │           │      │           │        │           │ 22.52°C Min  │ -12.28°C Min      │ 27.33°C Min  │ 20.87°C Min  │ 27.12°C Min  ║
+║      │           │      │           │        │           │ 44% Humidity │ 92% Humidity      │ 79% Humidity │ 43% Humidity │ 77% Humidity ║
+╚══════╧═══════════╧══════╧═══════════╧════════╧═══════════╧══════════════╧═══════════════════╧══════════════╧══════════════╧══════════════╝
+
+```
 ### United States of America
 ---
 ```
