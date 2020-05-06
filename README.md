@@ -1,4 +1,47 @@
 # COVID-19 Weather Tracker
+
+> A command line interface based Java application utilizing RESTful web services to fetch weather conditions corresponding to COVID-19 infections by date.
+
+A simple Java application to practice switching over from a Python to a Java development environment.
+
+Java based Tools/Frameworks used -
+* Eclipse IDE
+* JUnit 5
+* Apache Maven
+
+---
+
+## REST API Calls
+
+* [REST Countries](https://restcountries.eu/) fetches the country code for a country name as an input string.
+* [GeoDB Cities](http://geodb-cities-api.wirefreethought.com/) fetches the geographical coordinates for the top 5 most populated cities using obtained country code.
+* [COVID-19 API](https://covid19api.com/) fetches the historical time series infection counts using obtained country code.
+* [Dark Sky](https://darksky.net/forecast/40.7127,-74.0059/us12/en) fetches the weather conditions based on date from COVID time series data, and geographical coordinates obtained for top locations.
+* [PokeAPI](https://pokeapi.co/) for testing REST API calls. (Couldn't resist)
+
+---
+
+## Usage
+
+To run the executable JAR file on your environment, run -
+```
+java -jar covidweather-0.0.1-SNAPSHOT-shaded.jar "Country"
+```
+Some examples -
+```
+java -jar covidweather-0.0.1-SNAPSHOT-shaded.jar India
+java -jar covidweather-0.0.1-SNAPSHOT-shaded.jar USA
+java -jar covidweather-0.0.1-SNAPSHOT-shaded.jar United States of America
+```
+
+## Configuration
+
+Dark Sky has a limit of 1000 API calls in 24 hours.
+Set your own API key in `src/main/java/config/Config.java`
+
+The number of days in executable JAR have been limited to 16.
+Set your own higher limit in `src/main/java/apicalls/apicaller/CovidTimeSeries.java`
+
 ## Sample Output
 
 ### Italy - Initial Stage
