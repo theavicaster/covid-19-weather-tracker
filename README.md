@@ -33,6 +33,7 @@ java -jar covidweather-0.0.1-SNAPSHOT-shaded.jar India
 java -jar covidweather-0.0.1-SNAPSHOT-shaded.jar USA
 java -jar covidweather-0.0.1-SNAPSHOT-shaded.jar United States of America
 ```
+---
 
 ## Configuration
 
