@@ -43,6 +43,8 @@ Set your own API key in `src/main/java/config/Config.java`
 The number of days in executable JAR have been limited to 16.
 Set your own higher limit in `src/main/java/apicalls/apicaller/CovidTimeSeries.java`
 
+---
+
 ## Sample Output
 
 ### Italy - Initial Stage
