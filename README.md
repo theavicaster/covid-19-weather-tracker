@@ -1,7 +1,9 @@
 # COVID-19 WeatherTracker
-
+---
 ## Sample Output
 
+### United States of America
+---
 ```
 Country code fetched! - US
 Geocoded locations fetched! - 
