@@ -1,4 +1,4 @@
-# COVID-19 WeatherTracker
+# COVID-19 Weather Tracker
 ## Sample Output
 
 ### Italy - Initial Stage
