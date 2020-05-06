@@ -6,6 +6,7 @@
 ![Screenshot](https://github.com/theavicaster/covid-19-weather-tracker/blob/master/weather.png)
 
 A simple Java application to practice switching over from a Python to a Java development environment.
+Proving a point, that the weather generally does not stop COVID-19's progress was only an added bonus. :') 
 
 Java based Tools/Frameworks used -
 * Eclipse IDE
