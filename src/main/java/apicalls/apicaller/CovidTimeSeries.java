@@ -64,17 +64,17 @@ public class CovidTimeSeries extends RESTAPICaller {
 			System.out.println("Record for "+ day + "/" + month + " fetched!");
 			
 			int noOfDays = confirmed.size();
-			
-			//Limiting number of API calls for DarkSky
-			if(noOfDays>3)
-				break;
-			
+						
 			//No new cases for the first day
 			if(noOfDays == 1)
 				newCases.add(0);
 			else
 				newCases.add(confirmed.get(noOfDays-1) - confirmed.get(noOfDays-2));
 		
+			//Limiting number of API calls for DarkSky
+			//They are limited to 1000 calls a day
+			if(noOfDays>15)
+				break;
 			
 			
 		}

@@ -24,6 +24,8 @@ public class GeocodedLocations extends RESTAPICaller {
 		
 		parseJSONResponse(JSONResponse);
 		
+		//Hard-coded for top 5 locations
+		//TODO Make this dynamic
 		System.out.println("Geocoded locations fetched! - ");
 		for(int i=0; i<5; i++)
 		{

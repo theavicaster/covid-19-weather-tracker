@@ -1,4 +1,4 @@
-package apicalls.apicallerbase;
+package customutils;
 
 public class HTTPStatusCodeException extends Exception {
 	 

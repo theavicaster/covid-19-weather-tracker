@@ -16,6 +16,7 @@ public class WeatherInformation extends RESTAPICaller {
 	public WeatherInformation(GeocodedLocations loc, long unixTime)
 	{
 		locWeather = new LocationWeather[5];
+		//Accessing the secret key
 		String API_KEY = Config.getAPI_KEY1();
 		
 		for(int i=0 ;i<5;i++)
