@@ -2,6 +2,9 @@
 
 > A command line interface based Java application utilizing RESTful web services to fetch weather conditions corresponding to COVID-19 infections by date.
 
+
+![Screenshot](https://github.com/theavicaster/covid-19-weather-tracker/blob/master/weather.png)
+
 A simple Java application to practice switching over from a Python to a Java development environment.
 
 Java based Tools/Frameworks used -
